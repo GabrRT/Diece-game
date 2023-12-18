@@ -1,0 +1,90 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.btn {
+  background-color: rgb(28, 183, 131);
+  /* Add more styling as needed */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: white;
+  
+}
+
+@media (max-width: 768px) {
+  .container, .dice {
+      width: 90%; /* Wider container for smaller screens */
+  }
+
+  h1 {
+      font-size: 5rem; /* Smaller font size for headings */
+      margin: 15px; /* Less margin */
+      text-shadow: 3px 0 #232931;
+  }
+  body {
+    background-color: rgb(10, 52, 52);
+    /* other mobile-specific styles */
+}
+
+  p {
+      font-size: 1.5rem; /* Smaller font size for paragraphs */
+  }
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  img {
+      width: 15%; /* Full width images on smaller screens */
+  }
+
+  footer {
+      margin-top: 10%; /* Adjust footer margin */
+  }
+  .btn {
+    background-color: rgb(34, 128, 37);
+   
+
+  }
+}
